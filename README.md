@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+## Project Details
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed during Edyoda program for Fullstack Development. This was the final assessmant for certification of the program. This project is built using ReactJS.
+
+## Getting started with this project
+
+You will need to clone this Repository first. Then run `npm install` to install all the dependencies.
 
 ## Available Scripts
 
