@@ -1,0 +1,56 @@
+.Orders {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8% 4%;
+}
+
+.OrdersWrap {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 0;
+}
+
+.FilterWrap {
+  width: 180px;
+}
+
+.FilterOption {
+  display: flex;
+  flex-direction: column;
+}
+
+.FilterCheckbox {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.FilterCheckbox input {
+  margin-right: 12px;
+}
+
+.OrderTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.OrderTable th,
+.OrderTable td {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.TableRow td {
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+}
+
+.SecondaryText {
+  color: #8c8c8c;
+}
+
+.PrimaryText {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
