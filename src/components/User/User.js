@@ -23,6 +23,9 @@ export default class User extends Component {
       e.preventDefault();
       if (e.target.value.length < 2) {
         alert("please enter at least 2 characters");
+        this.setState({
+          searchQuery: null,
+        });
         return;
       }
       this.setState({
